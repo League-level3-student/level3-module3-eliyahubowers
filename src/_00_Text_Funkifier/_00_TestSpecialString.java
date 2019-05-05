@@ -38,6 +38,8 @@ public class _00_TestSpecialString {
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
 	public void testCustomString() {
-	
+		SpecialString ss = new ShuffleString("This is the last test");
+		System.out.println(ss);
+		assertEquals("Teh ilsa sits  ttehst", ss.toString());
 	}
 }
